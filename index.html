@@ -60,7 +60,7 @@
                 console.log("Autoplay blocked:", err);
             });
         });
-        document.addEventListener("click", () => {
+        document.addEventListener("scroll", () => {
             audio.muted = false;
             audio.play();
         }, { once: true });
