@@ -4,11 +4,11 @@ I've made the Prank Website for Trolling my Friend using HTML, JavaScript, and C
 
 This Website will automaticly play Sound when there's any click activities
 
-Stil in Beta because i haven't fix for Responsive Mobile
+Still in Beta because i haven't fix for Responsive Mobile
 
 # ⚠️ WARNING!
 
-this website containt 18+ sound effect for trolling, be carefull using this and for entertaiment purpose only!
+This Website containt 18+ sound effect for trolling, be carefull using this and for entertaiment purpose only!
 
 # 📸 Screenshot
 
