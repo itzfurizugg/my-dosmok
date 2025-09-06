@@ -1,7 +1,9 @@
 # Prank Website
 
 I've made the Prank Website for Trolling my Friend using HTML, JavaScript, and CSS
+
 This Website will automaticly play Sound when there's any click activities
+
 Stil in Beta because i haven't fix for Responsive Mobile
 
 # ⚠️ WARNING!
