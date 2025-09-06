@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navtop {
+    background-color: #91ADC8;
+    justify-content: center;
+    display: flex;
+}
+
+.navtop a {
+    text-decoration: none;
+    color: #24304e;
+    margin: 15px;
+    font-family: Coolvetica;
+    font-size: 20px;
+}
+
+.home {
+    height: 800px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #AED6CF;
+}
+
+.home h1 {
+    font-size: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.home p {
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.docs {
+    height: 800px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    padding-left: 64px;
+    padding-top: 64px;
+    background-color: #91ADC8;
+}
+
+.docs h1 {
+    font-size: 48px;
+    font-family: Qualcomm Next;
+}
+
+.docs p {
+    padding-top: 15px;
+    font-family: Qualcomm Next;
+    font-weight: 100;
+}
+
+.imagedoc {
+    position: relative;
+    display: inline-block;
+    margin-left: 1330px;
+    margin-top: -550px;
+}
+
+#desc {
+    max-width: 1280px;
+    color: #333;
+    line-height: 1.6;
+    font-size: 20px;
+}
+
+#picamba {
+    display: block;
+    height: 650px;
+    width: 460px;
+    object-fit: cover;
+    border-radius: 32px;
+}
+
+#verified {
+    position: absolute;
+    z-index: inherit;
+    height: 50px;
+    width: 50px;
+    top: 32px;
+    padding-left: 25px;
+}

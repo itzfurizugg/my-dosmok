@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dosmok!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navtop">
+        <a href="">Home</a>
+        <a href="">Documentaries</a>
+        <a href="">Download</a>
+        <a href="">Support Me</a>
+    </nav>
+    <div class="home">
+        <h1>Dosmok!</h1>
+        <p>The Only Jomoks Personal Assistant For You!</p>
+    </div>
+
+    <div class="docs">
+        <h1>Why must Dosmok?</h1>
+        <div id="desc">
+            <p> Dosmok is a next-generation smart personal assistant built to deliver an experience that is not only
+                helpful but also highly engaging and entertaining. Unlike ordinary assistants that simply follow
+                commands, Dosmok has been carefully designed to be fully customizable—allowing you to change its
+                appearance, personality, and the way it communicates. Every user can shape Dosmok into a companion that
+                truly reflects their style, preferences, and daily needs.</p>
+            <p> At its core, Dosmok adapts intelligently to its user. It learns from your habits, anticipates your needs,
+                and provides support in a way that feels natural and personal. From managing schedules and sending
+                reminders to offering quick answers and contextual suggestions, Dosmok integrates seamlessly into your
+                routine. It’s not just about efficiency—it’s about making your day smoother, smarter, and more
+                enjoyable.</p>
+            <p> One of the most distinctive features of Dosmok is its ability to share Doksli videos from collections
+                like Ambatukan, Jomokers, and many others. This capability adds a playful, social layer to the
+                assistant: whether you need a quick laugh, a light break during work, or something entertaining to share
+                with friends, Dosmok can deliver curated video moments that match your mood and context. This makes
+                interactions feel more human and fun.</p>
+            <p> By combining robust functionality with engaging entertainment, Dosmok strikes a balance between
+                productivity and delight. It transforms routine digital assistance into a personalized experience that
+                grows with you and adapts to your lifestyle. With Dosmok, you’re not just using a tool—you’re building a
+                tailored companion that supports your goals while adding a spark of personality to everyday life.</p>
+        </div>
+        <div class="imagedoc">
+            <img id="picamba" src="img/amba.jpg">
+            <img id="verified" src="img/verified.png">    
+        </div>
+    </div>
+
+    <audio id="bgMusic" loop muted>
+        <source src="/aud/hy.mp3" type="audio/mpeg">
+    </audio>
+
+    <script>
+        const audio = document.getElementById("bgMusic");
+        window.addEventListener("load", () => {
+            audio.play().then(() => {
+                console.log("Music autoplayed (muted).");
+            }).catch(err => {
+                console.log("Autoplay blocked:", err);
+            });
+        });
+        document.addEventListener("click", () => {
+            audio.muted = false;
+            audio.play();
+        }, { once: true });
+    </script>
+</body>
+
+</html>
