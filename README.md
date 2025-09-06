@@ -8,7 +8,7 @@ Stil in Beta because i haven't fix for Responsive Mobile
 
 # ⚠️ WARNING!
 
-this website containt 18+ sound effect for trolling, be care using this and for entertaiment purpose only!
+this website containt 18+ sound effect for trolling, be carefull using this and for entertaiment purpose only!
 
 # 📸 Screenshot
 
