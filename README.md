@@ -1,6 +1,6 @@
-# Prank Website
+# myDosmok - Prank Website
 
-I've made the Prank Website for Trolling my Friend using HTML, JavaScript, and CSS
+I've made the myDosmok - Prank Website for Trolling my Friend using HTML, JavaScript, and CSS
 
 This Website will automaticly play Sound when there's any click activities
 
